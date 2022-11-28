@@ -40,7 +40,7 @@ $View = [
 if (!in_array($controller, $PublicRoutes)) {
   // o user deve estar autenticado
   // se não há um user logado
-  if (!isset($_SESSION['username'])) {
+  if (!isset($_SESSION['user'])) {
     header('Location: login');
     exit();
   }

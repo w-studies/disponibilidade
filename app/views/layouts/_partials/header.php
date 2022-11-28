@@ -3,7 +3,7 @@
   <div class="logotype h2 fw-light">
     Disponibilidade System
   </div>
-  <button class="btn btn-primary">
+  <a class="btn btn-primary" href="logoff">
     Logoff
-  </button>
+  </a>
 </header>

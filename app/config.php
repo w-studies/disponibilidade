@@ -25,8 +25,8 @@ session_start();
 // carrega os helpers
 require 'helpers/functions.php';
 
-// carrega o gerenciador de rotas
-require 'router.php';
-
 // conecta o sistema ao database
 require 'db.php';
+
+// carrega o gerenciador de rotas
+require 'router.php';
