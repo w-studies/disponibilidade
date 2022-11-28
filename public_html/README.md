@@ -7,14 +7,12 @@
   - controller
 
     arquivo que vai guardar a parte lógica do sistema
-
-    <small>é executado antes das views</small>
+    <br><small>é executado antes das views</small>
 
   - view
 
     arquivo que vai guardar o conteúdo que será exibido para o user
-
-    <small>é carregada por um controller</small>
+    <br><small>é carregada por um controller</small>
 
   - params
 
@@ -29,13 +27,12 @@
 - `app/`
 
   onde ficam todos os arquivos da aplicação
+  <br><small>fora da pasta pública (inacessível para os users)</small>
 
   - `controllers`
   - `views`
 
     <br>
-
-  fica fora da pasta pública (inacessível para os users)
 
 - `public_html`
 

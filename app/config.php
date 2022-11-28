@@ -16,6 +16,9 @@ $Layout = 'default';
 // define rotas públicas (pode ser acessadas sem login)
 $PublicRoutes = ['login', 'registration'];
 
+// define request method
+$Request = $_SERVER['REQUEST_METHOD'];
+
 // inicia a sessão
 session_start();
 
